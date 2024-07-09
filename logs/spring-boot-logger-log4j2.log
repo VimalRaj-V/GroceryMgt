@@ -1,0 +1,129 @@
+2024-07-09 16:23:05,420 INFO o.s.b.StartupInfoLogger [restartedMain] Starting GroceryMgtApplication using Java 21.0.2 with PID 15504 (C:\eclipse\grocerymgt\target\classes started by vimalraj.vijayakumar in C:\eclipse\grocerymgt)
+2024-07-09 16:23:05,435 INFO o.s.b.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2024-07-09 16:23:05,500 INFO o.s.b.l.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-07-09 16:23:05,501 INFO o.s.b.l.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-07-09 16:23:06,399 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-07-09 16:23:06,502 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 93 ms. Found 4 JPA repository interfaces.
+2024-07-09 16:23:07,231 INFO o.s.b.w.e.t.TomcatWebServer [restartedMain] Tomcat initialized with port 8080 (http)
+2024-07-09 16:23:07,252 INFO o.a.j.l.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2024-07-09 16:23:07,257 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2024-07-09 16:23:07,258 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/10.1.24]
+2024-07-09 16:23:07,351 INFO o.a.j.l.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2024-07-09 16:23:07,353 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 1850 ms
+2024-07-09 16:23:07,663 INFO o.h.j.i.u.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-07-09 16:23:07,771 INFO o.h.Version [restartedMain] HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-07-09 16:23:07,827 INFO o.h.c.i.RegionFactoryInitiator [restartedMain] HHH000026: Second-level cache disabled
+2024-07-09 16:23:08,286 INFO o.s.o.j.p.SpringPersistenceUnitInfo [restartedMain] No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-07-09 16:23:08,340 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2024-07-09 16:23:08,757 INFO c.z.h.p.HikariPool [restartedMain] HikariPool-1 - Added connection ConnectionID:1 ClientConnectionId: c4a0e8a5-bc92-4db3-b9bd-4bf465f561ea
+2024-07-09 16:23:08,759 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2024-07-09 16:23:08,798 WARN o.h.e.j.d.i.DialectFactoryImpl [restartedMain] HHH90000025: SQLServerDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-07-09 16:23:10,304 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [restartedMain] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-07-09 16:23:11,257 INFO o.s.o.j.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-07-09 16:23:11,782 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-07-09 16:23:12,225 INFO o.s.b.d.a.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2024-07-09 16:23:12,255 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2024-07-09 16:23:12,279 INFO o.s.b.w.e.t.TomcatWebServer [restartedMain] Tomcat started on port 8080 (http) with context path '/'
+2024-07-09 16:23:12,293 INFO o.s.b.StartupInfoLogger [restartedMain] Started GroceryMgtApplication in 7.47 seconds (process running for 9.016)
+2024-07-09 16:24:09,323 INFO o.a.j.l.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-07-09 16:24:09,324 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2024-07-09 16:24:09,327 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 2 ms
+2024-07-09 16:24:10,062 INFO c.e.g.s.CartServiceImpl [http-nio-8080-exec-1] Cart Successfully added
+2024-07-09 16:25:01,993 INFO o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener [File Watcher] Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-07-09 16:25:02,004 INFO o.a.j.l.DirectJDKLog [Thread-5] Stopping ProtocolHandler ["http-nio-8080"]
+2024-07-09 16:25:02,017 INFO o.s.o.j.AbstractEntityManagerFactoryBean [Thread-5] Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-07-09 16:25:02,023 INFO c.z.h.HikariDataSource [Thread-5] HikariPool-1 - Shutdown initiated...
+2024-07-09 16:25:02,037 INFO c.z.h.HikariDataSource [Thread-5] HikariPool-1 - Shutdown completed.
+2024-07-09 16:25:02,218 INFO o.s.b.StartupInfoLogger [restartedMain] Starting GroceryMgtApplication using Java 21.0.2 with PID 15504 (C:\eclipse\grocerymgt\target\classes started by vimalraj.vijayakumar in C:\eclipse\grocerymgt)
+2024-07-09 16:25:02,219 INFO o.s.b.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2024-07-09 16:25:02,545 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-07-09 16:25:02,576 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 29 ms. Found 4 JPA repository interfaces.
+2024-07-09 16:25:02,755 INFO o.s.b.w.e.t.TomcatWebServer [restartedMain] Tomcat initialized with port 8080 (http)
+2024-07-09 16:25:02,758 INFO o.a.j.l.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2024-07-09 16:25:02,760 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2024-07-09 16:25:02,761 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/10.1.24]
+2024-07-09 16:25:02,792 INFO o.a.j.l.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2024-07-09 16:25:02,792 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 570 ms
+2024-07-09 16:25:02,844 INFO o.h.j.i.u.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-07-09 16:25:02,849 INFO o.h.c.i.RegionFactoryInitiator [restartedMain] HHH000026: Second-level cache disabled
+2024-07-09 16:25:02,864 INFO o.s.o.j.p.SpringPersistenceUnitInfo [restartedMain] No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-07-09 16:25:02,866 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-2 - Starting...
+2024-07-09 16:25:02,895 INFO c.z.h.p.HikariPool [restartedMain] HikariPool-2 - Added connection ConnectionID:11 ClientConnectionId: d9dd59e8-87bb-4178-9cef-e8b593726498
+2024-07-09 16:25:02,895 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-2 - Start completed.
+2024-07-09 16:25:02,897 WARN o.h.e.j.d.i.DialectFactoryImpl [restartedMain] HHH90000025: SQLServerDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-07-09 16:25:03,068 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [restartedMain] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-07-09 16:25:03,887 INFO o.s.o.j.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-07-09 16:25:04,045 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-07-09 16:25:04,191 INFO o.s.b.d.a.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2024-07-09 16:25:04,204 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2024-07-09 16:25:04,210 INFO o.s.b.w.e.t.TomcatWebServer [restartedMain] Tomcat started on port 8080 (http) with context path '/'
+2024-07-09 16:25:04,215 INFO o.s.b.StartupInfoLogger [restartedMain] Started GroceryMgtApplication in 2.086 seconds (process running for 120.938)
+2024-07-09 16:25:04,218 INFO o.s.b.d.a.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2024-07-09 16:31:23,177 INFO o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener [File Watcher] Restarting due to 4 class path changes (0 additions, 1 deletion, 3 modifications)
+2024-07-09 16:31:23,194 INFO o.a.j.l.DirectJDKLog [Thread-7] Stopping ProtocolHandler ["http-nio-8080"]
+2024-07-09 16:31:23,225 INFO o.s.o.j.AbstractEntityManagerFactoryBean [Thread-7] Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-07-09 16:31:23,236 INFO c.z.h.HikariDataSource [Thread-7] HikariPool-2 - Shutdown initiated...
+2024-07-09 16:31:23,248 INFO c.z.h.HikariDataSource [Thread-7] HikariPool-2 - Shutdown completed.
+2024-07-09 16:31:23,407 INFO o.s.b.StartupInfoLogger [restartedMain] Starting GroceryMgtApplication using Java 21.0.2 with PID 15504 (C:\eclipse\grocerymgt\target\classes started by vimalraj.vijayakumar in C:\eclipse\grocerymgt)
+2024-07-09 16:31:23,409 INFO o.s.b.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2024-07-09 16:31:23,692 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-07-09 16:31:23,722 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 28 ms. Found 4 JPA repository interfaces.
+2024-07-09 16:31:23,899 INFO o.s.b.w.e.t.TomcatWebServer [restartedMain] Tomcat initialized with port 8080 (http)
+2024-07-09 16:31:23,903 INFO o.a.j.l.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2024-07-09 16:31:23,903 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2024-07-09 16:31:23,904 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/10.1.24]
+2024-07-09 16:31:23,940 INFO o.a.j.l.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2024-07-09 16:31:23,940 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 526 ms
+2024-07-09 16:31:23,994 INFO o.h.j.i.u.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-07-09 16:31:24,002 INFO o.h.c.i.RegionFactoryInitiator [restartedMain] HHH000026: Second-level cache disabled
+2024-07-09 16:31:24,018 INFO o.s.o.j.p.SpringPersistenceUnitInfo [restartedMain] No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-07-09 16:31:24,019 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-3 - Starting...
+2024-07-09 16:31:24,048 INFO c.z.h.p.HikariPool [restartedMain] HikariPool-3 - Added connection ConnectionID:21 ClientConnectionId: 119183b9-03b0-44cb-85af-a96853fb6125
+2024-07-09 16:31:24,049 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-3 - Start completed.
+2024-07-09 16:31:24,051 WARN o.h.e.j.d.i.DialectFactoryImpl [restartedMain] HHH90000025: SQLServerDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-07-09 16:31:24,210 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [restartedMain] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-07-09 16:31:25,236 INFO o.s.o.j.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-07-09 16:31:25,432 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-07-09 16:31:25,617 INFO o.s.b.d.a.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2024-07-09 16:31:25,631 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2024-07-09 16:31:25,637 INFO o.s.b.w.e.t.TomcatWebServer [restartedMain] Tomcat started on port 8080 (http) with context path '/'
+2024-07-09 16:31:25,643 INFO o.s.b.StartupInfoLogger [restartedMain] Started GroceryMgtApplication in 2.299 seconds (process running for 502.366)
+2024-07-09 16:31:25,645 INFO o.s.b.d.a.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2024-07-09 16:34:37,080 INFO o.a.j.l.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-07-09 16:34:37,081 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2024-07-09 16:34:37,084 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 3 ms
+2024-07-09 16:34:54,664 INFO o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener [File Watcher] Restarting due to 2 class path changes (0 additions, 0 deletions, 2 modifications)
+2024-07-09 16:34:54,700 INFO o.a.j.l.DirectJDKLog [Thread-11] Stopping ProtocolHandler ["http-nio-8080"]
+2024-07-09 16:34:54,713 INFO o.s.o.j.AbstractEntityManagerFactoryBean [Thread-11] Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-07-09 16:34:54,715 INFO c.z.h.HikariDataSource [Thread-11] HikariPool-3 - Shutdown initiated...
+2024-07-09 16:34:54,723 INFO c.z.h.HikariDataSource [Thread-11] HikariPool-3 - Shutdown completed.
+2024-07-09 16:34:54,923 INFO o.s.b.StartupInfoLogger [restartedMain] Starting GroceryMgtApplication using Java 21.0.2 with PID 15504 (C:\eclipse\grocerymgt\target\classes started by vimalraj.vijayakumar in C:\eclipse\grocerymgt)
+2024-07-09 16:34:54,924 INFO o.s.b.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2024-07-09 16:34:55,230 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-07-09 16:34:55,263 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 32 ms. Found 4 JPA repository interfaces.
+2024-07-09 16:34:55,459 INFO o.s.b.w.e.t.TomcatWebServer [restartedMain] Tomcat initialized with port 8080 (http)
+2024-07-09 16:34:55,464 INFO o.a.j.l.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2024-07-09 16:34:55,465 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2024-07-09 16:34:55,466 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/10.1.24]
+2024-07-09 16:34:55,503 INFO o.a.j.l.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2024-07-09 16:34:55,503 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 574 ms
+2024-07-09 16:34:55,578 INFO o.h.j.i.u.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-07-09 16:34:55,586 INFO o.h.c.i.RegionFactoryInitiator [restartedMain] HHH000026: Second-level cache disabled
+2024-07-09 16:34:55,604 INFO o.s.o.j.p.SpringPersistenceUnitInfo [restartedMain] No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-07-09 16:34:55,607 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-4 - Starting...
+2024-07-09 16:34:55,646 INFO c.z.h.p.HikariPool [restartedMain] HikariPool-4 - Added connection ConnectionID:31 ClientConnectionId: 3d1d962b-895a-4438-b5b3-15a8062d86c1
+2024-07-09 16:34:55,647 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-4 - Start completed.
+2024-07-09 16:34:55,648 WARN o.h.e.j.d.i.DialectFactoryImpl [restartedMain] HHH90000025: SQLServerDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-07-09 16:34:55,837 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [restartedMain] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-07-09 16:34:57,301 INFO o.s.o.j.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-07-09 16:34:57,466 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-07-09 16:34:57,608 INFO o.s.b.d.a.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2024-07-09 16:34:57,620 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2024-07-09 16:34:57,627 INFO o.s.b.w.e.t.TomcatWebServer [restartedMain] Tomcat started on port 8080 (http) with context path '/'
+2024-07-09 16:34:57,632 INFO o.s.b.StartupInfoLogger [restartedMain] Started GroceryMgtApplication in 2.811 seconds (process running for 714.355)
+2024-07-09 16:34:57,634 INFO o.s.b.d.a.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2024-07-09 17:20:19,803 WARN c.z.h.p.HikariPool$HouseKeeper [HikariPool-4 housekeeper] HikariPool-4 - Thread starvation or clock leap detected (housekeeper delta=6m23s465ms601µs).
+2024-07-09 18:01:49,960 INFO o.a.j.l.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-07-09 18:01:49,962 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2024-07-09 18:01:49,967 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 4 ms
+2024-07-09 18:02:16,371 INFO c.e.g.s.CustomerServiceImpl [http-nio-8080-exec-3] Password successfully authenticated for Kowz
